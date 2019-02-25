@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<meta charset="utf-8">
+</head>
+
+<body>
+	<div class="container py-3">
+		<div class="row">
+			<div class="col-3 border mt-2 py-2">
+				<div id="accordion">
+					<div class="card">
+						<div class="card-header" id="headingOne">
+							<h5 class="mb-0">
+								<button class="btn btn-link text-white" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									BÁSICO
+								</button>
+							</h5>
+						</div>
+
+						<script type="text/javascript" src=""></script>
+
+						<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+							<div class="card-body">
+								<ul class="list-group">
+								  <li data-code="<html>" class="list-group-item comando">HTML</li>
+								  <li data-code="</html>" class="list-group-item comando">/HTML</li>
+								  <li data-code="<head>" class="list-group-item comando">HEAD</li>
+								  <li data-code="</head>" class="list-group-item comando">/HEAD</li>
+								  <li data-code="<body>"  class="list-group-item comando">BODY</li>
+								  <li data-code="</body>"  class="list-group-item comando">/BODY</li>
+								  <li data-code="<link rel='stylesheet' type='text/css' href=''>" class="list-group-item comando">LINK</li>
+								  <li data-code="<script type='text/javascript' src=''></script>" class="list-group-item comando">SCRIPT</li>
+								  <li data-code="<div>" class="list-group-item comando">DIV</li>
+								  <li data-code="</div>" class="list-group-item comando">/DIV</li>
+								  <li data-code="<p>Parágrafo</p>" class="list-group-item comando">P /P</li>
+								  <li data-code="<h1>Título</h1>" class="list-group-item comando">H1</li>
+								  <li data-code="<span>SPAN</span>" class="list-group-item comando">SPAN</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingTwo">
+							<h5 class="mb-0">
+								<button class="btn btn-link collapsed text-white" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									LISTA
+								</button>
+							</h5>
+						</div>
+						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+							<div class="card-body">
+								<ul class="list-group">
+								  <li data-code="<ul>" class="list-group-item comando">UL</li>
+								  <li data-code="<li>Conteudo</li>" class="list-group-item comando">LI</li>
+								  <li data-code="</ul>" class="list-group-item comando">/UL</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingThree">
+							<h5 class="mb-0">
+								<button class="btn btn-link collapsed text-white" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									TABELA
+								</button>
+							</h5>
+						</div>
+						<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+							<div class="card-body">
+								<ul class="list-group">
+								  <li data-code="<tbody>" class="list-group-item comando">TBODY</li>
+								  <li data-code="</tbody>" class="list-group-item comando">/TBODY</li>
+								  <li data-code="<thead>" class="list-group-item comando">THEAD</li>
+								  <li data-code="</thead>" class="list-group-item comando">THEAD</li>
+								  <li data-code="<tr>" class="list-group-item comando">TR</li>
+								  <li data-code="</tr>" class="list-group-item comando">/TR</li>
+								  <li data-code="<th>Cabeçalho</th>" class="list-group-item comando">TH</li>
+								  <li data-code="<td>Coluna</td>" class="list-group-item comando">TD</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-4 border mt-2 py-2">
+				<div class="esqueleto">
+					
+				</div>
+			</div>
+			<div class="col-5 border mt-2 py-2">
+				<div class="visualizador">
+					<iframe id="visualizar"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="index.js"></script>
+
+</html>

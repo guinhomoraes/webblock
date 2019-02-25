@@ -1,0 +1,40 @@
+iframe
+{
+	height: 95vh;
+	width: 100%;
+}
+
+.col-3
+{
+	height: 95vh;
+}
+
+.accordion
+{
+	height: 95vh;
+	overflow: hidden;
+}
+
+.card-header
+{
+	background: #c6c3ca;
+	color: white;
+}
+
+.card-body
+{
+	margin: 0;
+	padding: 0;
+}
+
+.esqueleto
+{
+	border: solid 1px; 
+	height: 95vh;
+}
+
+.visualizador
+{
+	border: solid 1px; 
+	height: 95vh;
+}
