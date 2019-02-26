@@ -1,18 +1,35 @@
+
+body
+{
+	background: #60B99F;
+}
+
 iframe
 {
-	height: 95vh;
+	height: 90vh;
 	width: 100%;
+}
+
+.container
+{
+	background: white;
 }
 
 .col-3
 {
-	height: 95vh;
+	height: 90vh;
+	overflow:auto;
 }
+
+.categorias
+{
+	height: 90vh;
+}
+
 
 .accordion
 {
-	height: 95vh;
-	overflow: hidden;
+	height: 90vh;
 }
 
 .card-header
@@ -30,11 +47,10 @@ iframe
 .esqueleto
 {
 	border: solid 1px; 
-	height: 95vh;
+	height: 90vh;
 }
 
 .visualizador
 {
-	border: solid 1px; 
-	height: 95vh;
+	height: 90vh;
 }
