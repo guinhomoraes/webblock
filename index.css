@@ -6,6 +6,7 @@ body
 
 iframe
 {
+	border: solid 1px;
 	height: 90vh;
 	width: 100%;
 }
@@ -15,10 +16,13 @@ iframe
 	background: white;
 }
 
-.col-3
+.col-3,
+.col-4,
+.col-5
 {
 	height: 90vh;
-	overflow:auto;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
 .categorias
